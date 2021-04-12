@@ -7,6 +7,9 @@
   "author": "Yaksh Bariya <yakshbari4@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "tsc --build"
+  },
   "bin": {
     "yaksh": "./dist/index.js"
   },
